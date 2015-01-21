@@ -8,4 +8,7 @@ display(grocery_list)
 grocery_list << "rice"
 display(grocery_list)
 
+puts grocery_list.count
+
+
 
