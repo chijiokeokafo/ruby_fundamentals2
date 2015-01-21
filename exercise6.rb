@@ -17,4 +17,5 @@ grocery_list.each do |list|
 		puts "You don't need nanners today"
 	end
 end 
+
 puts grocery_list[1]
