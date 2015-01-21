@@ -13,4 +13,5 @@ display(students)
 students[:cohort4] = 43
 display(students)
 
+puts students.keys
 
