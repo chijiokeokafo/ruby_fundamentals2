@@ -9,3 +9,8 @@ def display(list)
 end
 
 display(students)
+
+students[:cohort4] = 43
+display(students)
+
+
