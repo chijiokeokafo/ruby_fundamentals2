@@ -21,5 +21,10 @@ end
 puts grocery_list[1]
 
 
-alpha = grocery_list.sort!
-puts alpha
+display(grocery_list.sort)
+
+grocery_list.delete_at(3)
+display(grocery_list)
+
+
+
