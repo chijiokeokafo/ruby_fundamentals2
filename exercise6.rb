@@ -10,5 +10,11 @@ display(grocery_list)
 
 puts grocery_list.count
 
-
-
+grocery_list.each do |list|
+	if list == "bananas" 
+		puts "You need nanners!! Potassium!"
+	else 
+		puts "You don't need nanners today"
+	end
+end 
+puts grocery_list[1]
