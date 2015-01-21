@@ -19,3 +19,7 @@ grocery_list.each do |list|
 end 
 
 puts grocery_list[1]
+
+
+alpha = grocery_list.sort!
+puts alpha
