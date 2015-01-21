@@ -1,8 +1,8 @@
 puts "What is the temp in Fahrenheit?"
 f = gets.chomp.to_i
 
-def temp_convert(temperature)
-	c = (temperature - 32) * 0.6
+def temp_convert(Fahrenheit)
+	c = (Fahrenheit - 32) * 0.6
 	return c
 end
 
