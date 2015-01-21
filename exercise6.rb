@@ -1,2 +1,11 @@
+def display(list)
+	list.each { |num| puts "*" + num }
+end
+
 grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
-grocery_list.each { |num| puts "*" + num }
+display(grocery_list)
+
+grocery_list << "rice"
+display(grocery_list)
+
+
