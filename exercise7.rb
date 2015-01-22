@@ -22,3 +22,7 @@ display(students)
 
 students.delete(:cohort2)
 display(students)
+
+sum = students.values
+puts "There are #{sum.inject{|sum,x| sum + x }} students after the 5 % increase... approximately."
+# I could only get the bonus to work with inject? 
