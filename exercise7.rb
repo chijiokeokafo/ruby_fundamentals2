@@ -5,7 +5,10 @@ students = {
 }
 
 def display(list)
-	list.each { |key, value| puts " #{key} : #{value} students" }
+	list.each do 
+		|key, value| puts " #{key} : #{value} students" 
+        puts ""
+	end
 end
 
 display(students)
@@ -17,5 +20,5 @@ students.inject(students) {|students, (x, y)| students[x] = y * 1.05; students }
 
 display(students)
 
-
-
+students.delete(:cohort2)
+display(students)
